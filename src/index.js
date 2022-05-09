@@ -11,7 +11,7 @@ function createLayout() {
   heading.innerHTML = 'Virtual Keyboard';
   container.appendChild(heading);
   const paragraph = document.createElement('p');
-  paragraph.innerHTML = 'Сделано для OC Windows. Чтобы переключить язык, нажмите LeftCtrl + LeftAlt.';
+  paragraph.innerHTML = 'Сделано на OC Windows. Чтобы переключить язык, нажмите LeftCtrl + LeftAlt.';
   container.appendChild(paragraph);
   const textarea = document.createElement('textarea');
   textarea.classList.add('text');
